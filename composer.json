@@ -3,6 +3,8 @@
     "description": "This trait can be sync data for hasmany relationship.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["hasmanysync","sync"],
+    "homepage": "https://github.com/PoojaJadav",
     "autoload": {
         "psr-4": {
             "Poojajadav\\Hasmanysync\\": "src/"
