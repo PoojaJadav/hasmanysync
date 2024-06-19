@@ -22,16 +22,15 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.2",
-        "symfony/http-kernel": ">=5.0",
-        "illuminate/support": "~5|~6|~7|~8|~9|~10"
+        "php": "^8.2",
+        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0"
     },
     "require-dev": {
-        "laravel/framework": "^7.0|^8.0|^9.0",
-        "laravel/helpers": "^1.5",
+        "laravel/framework": "^11.0",
+        "laravel/helpers": "^1.7",
         "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3|~4|~5|~6",
-        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^6.23 || ^7.0 || ^8.0 || ^9.0",
+        "phpunit/phpunit": "^11.1",
         "sempro/phpunit-pretty-print": "^1.0"
     },
     "extra": {
